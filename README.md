@@ -184,9 +184,9 @@ query = "AI conferences in North America"  # Измените на свой за
 Дата окончания: 2024-05-07
 ```
 
-## 易 DSPy: Фреймворк для программирования ЛЛМ
+## 易 DSPy: Фреймворк для программирования LLM
 
-[DSPy](https://github.com/stanfordnlp/dspy) - это декларативный фреймворк для разработки приложений с использованием больших языковых моделей (ЛЛМ). В нашем проекте DSPy используется для:
+[DSPy](https://github.com/stanfordnlp/dspy) - это декларативный фреймворк для разработки приложений с использованием больших языковых моделей (LLM). В нашем проекте DSPy используется для:
 
 1. **Структурирования информации** через `dspy.Signature` и `dspy.InputField`/`dspy.OutputField`
 2. **Интеграции языковых моделей** через `dspy.LM`
@@ -206,7 +206,7 @@ class Event(dspy.Signature):
 # Подключение языковой модели
 gemma_model = dspy.LM('ollama/gemma:2b', ...)
 
-# Настройка DSPy с указанием ЛЛМ и модуля поиска
+# Настройка DSPy с указанием LLM и модуля поиска
 dspy.configure(lm=gemma_model, rm=milvus_retriever)
 
 # Создание RAG модуля
