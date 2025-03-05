@@ -64,7 +64,7 @@ PrivateRAG объединяет следующие компоненты:
 ### 1. Клонирование репозитория
 
 ```bash
-git clone https://github.com/yourusername/private-rag-milvus-ollama.git
+git clone https://github.com/MasterVVK/private-rag-milvus-ollama.git
 cd private-rag-milvus-ollama
 ```
 
